@@ -1,0 +1,11 @@
+digraph G {
+true_price;
+second_prize;
+error [shape=box];
+true_price -> error  [label=true_price];
+"(first_prize_add_second_prize)" [shape=invtriangle];
+"(first_prize_add_second_prize)" -> error  [label=price_estimate];
+first_prize;
+first_prize -> "(first_prize_add_second_prize)"  [label=a];
+second_prize -> "(first_prize_add_second_prize)"  [label=b];
+}
