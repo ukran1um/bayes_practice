@@ -47,7 +47,7 @@ prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 pydot==1.2.4
 pydot-ng==1.0.1.dev0
-Pygments==2.2.0
+Pygments==2.7.4
 pymc==2.3.6
 pyparsing==2.2.0
 python-dateutil==2.7.2
